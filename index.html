@@ -28,6 +28,41 @@
             font-size: 2.5em;
         }
 
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #00ff00;
+            color: #000;
+            border-radius: 5px;
+            border: 2px solid #00ff00;
+        }
+
         .section {
             margin-bottom: 50px;
         }
@@ -73,9 +108,39 @@
 
     <div class="container">
         <header>
-            <h1>UIRI    -  WEBSITE UNDER CONSTRUCTION</h1>
+            <h1>UIRI - WEBSITE UNDER CONSTRUCTION</h1>
             <p>Whole Brain Emulation & Brain Preservation Research Institute</p>
         </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="#terminology">Terminology and Organizations</a></li>
+                <li><a href="#preservation">Preservation</a></li>
+                <li><a href="#wbe">WBE</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="section" id="terminology">
+            <h2 class="section-title">Terminology and Organizations</h2>
+            <p>Explore the key terms and organizations working on Whole Brain Emulation and related research fields.</p>
+        </div>
+
+        <div class="section" id="preservation">
+            <h2 class="section-title">Preservation</h2>
+            <p>Learn about the different preservation techniques and their role in brain emulation.</p>
+        </div>
+
+        <div class="section" id="wbe">
+            <h2 class="section-title">WBE</h2>
+            <p>Understand the technical and ethical aspects of Whole Brain Emulation.</p>
+        </div>
+
+        <div class="section" id="about">
+            <h2 class="section-title">About</h2>
+            <p>Learn more about UIRI, our mission, and how to contribute.</p>
+        </div>
 
         <div class="section">
             <h2 class="section-title">Join Our Community</h2>
@@ -83,37 +148,6 @@
             <a href="https://chat.whatsapp.com/EnTJRODfT9kLGZxixOQG0o" target="_blank" class="whatsapp-link">Join WhatsApp Group</a>
         </div>
 
-
-<p>
-The Uploaded Intelligence Research Institute (UIRI) is dedicated to advancing and organizing knowledge in the fields of whole brain emulation and brain preservation. Our mission is to provide a centralized resource for researchers, practitioners, and anyone interested in these emerging technologies by collating hard-to-find research, terminology, and relevant studies.
-<p></p>
-
-        <div class="section">
-            <h2 class="section-title">We focus on</h2>
-            <p>
-    Collecting and categorizing research on brain preservation and emulation. <br>
-    Building a comprehensive glossary of specialized terms.<br>
-    Providing resources for those interested in the technical, ethical, and practical aspects of these fields.<br></p>
-
-            <!--
-            <ul>
-                <li><strong>Whole Brain Emulation (WBE)</strong> - The process of creating a digital copy of a brain's structure and function.</li>
-                <li><strong>Brain Preservation</strong> - Techniques to preserve a brain's structure for future study and potential emulation.</li>
-                <li><strong>Neuromorphic Computing</strong> - Computing systems inspired by the architecture of the brain.</li>
-                <!-- Add more terms here 
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">Our Writings</h2>
-            <p>Explore articles and papers by our researchers on the latest developments in Whole Brain Emulation and Brain Preservation.</p>
-            <ul>
-                <li><a href="#">Introduction to Whole Brain Emulation</a></li>
-                <li><a href="#">The Future of Brain Preservation</a></li>
-               
-            </ul>
-        </div>
-                                    -->  
         <div class="contribute">
             <p>Interested in contributing? We invite researchers, students, and enthusiasts to contribute to the project. Whether you have studies to share or insights to add, all participation is welcome!</p>
             <a href="mailto:calarsenc@gmail.com">Email us to get involved</a>
@@ -121,7 +155,7 @@ The Uploaded Intelligence Research Institute (UIRI) is dedicated to advancing an
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 UIRI. </p>
+        <p>&copy; 2024 UIRI.</p>
     </footer>
 
 </body>
