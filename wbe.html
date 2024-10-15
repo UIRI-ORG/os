@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preservation Protocol</title>
+    <title>UIRI - Whole Brain Emulation & Brain Preservation</title>
     <style>
+        /* Base styles */
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
             background-color: #000;
             color: #fff;
+            line-height: 1.6;
         }
 
         .container {
-            width: 80%;
+            width: 100%;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -34,16 +37,18 @@
             margin-bottom: 20px;
         }
 
+        /* Navbar */
         .navbar {
             list-style: none;
             padding: 0;
             margin: 0;
             display: flex;
             justify-content: center;
+            flex-wrap: wrap; /* Ensure it wraps on smaller screens */
         }
 
         .navbar li {
-            margin: 0 15px;
+            margin: 10px 15px;
         }
 
         .navbar a {
@@ -63,10 +68,19 @@
             border: 2px solid #00ff00;
         }
 
+        /* Sections */
         .section {
             margin-bottom: 50px;
         }
 
+        .section-title {
+            border-bottom: 1px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        /* Links */
         a {
             color: #00ff00;
             text-decoration: none;
@@ -74,12 +88,6 @@
 
         a:hover {
             text-decoration: underline;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 20px;
-            font-size: 0.9em;
         }
 
         .whatsapp-link {
@@ -91,16 +99,65 @@
             margin-top: 20px;
         }
 
-        .contribute {
-            margin-top: 40px;
-            font-weight: bold;
+        /* Footer */
+        .footer {
             text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
         }
 
-        .section-title {
-            border-bottom: 1px solid #fff;
-            padding-bottom: 10px;
+        /* Typography improvements */
+        p {
+            font-size: 1.1rem;
             margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Mobile responsiveness */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar li {
+                margin: 10px 0;
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            .section {
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p, h2, h3 {
+                font-size: 1.1rem;
+            }
+
+            .navbar a {
+                font-size: 1rem;
+                padding: 8px 15px;
+            }
         }
     </style>
 </head>
@@ -140,7 +197,7 @@
         <p></p>
         <div class="section">
             <h2 class="section-title">EA, Tech Twitter/X, TPOT, Adjacent, agentic cultures mentions. PRE-OVERTON</h2>
-                <p><a href="https://www.lesswrong.com/posts/jTiSWHKAtnyA723LE/overview-of-strong-human-intelligence-amplification-methods" target="_blank"><strong>"Brain Emulation prominently featured, albeit shortly, in a decently upvoted Lesswrong post</strong></a><p> - Online, October 2024.</p><blockquote>
+                <p><a href="https://www.lesswrong.com/posts/jTiSWHKAtnyA723LE/overview-of-strong-human-intelligence-amplification-methods" target="_blank"><strong>"Brain Emulation" prominently featured, albeit shortly, in a decently upvoted Lesswrong post on intelligence enhancement</strong></a><p> - Online, October 2024.</p><blockquote>
 
         <div class="section">
             <h2 class="section-title">Video Resources:</h2>
@@ -154,6 +211,8 @@
             <h2 class="section-title">Textual Resources</h2>
             <p><a href="https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf" target="_blank"><strong>Whole Brain Emulation: A Roadmap</strong></a> The fundamental and legendary paper spurring directed efforts. Sandberg and Bostrum.</p>
             <p><a href="https://global.oup.com/academic/product/the-age-of-em-9780198754626" target="_blank"><strong>The Age of Em: Work, Love and Life when Robots Rule the Earth</strong></a> Robin Hanson (2016). This influential book, encyclopedic in scope, explores a future society dominated EMs and delves into the economic, social, and ethical implications of widespread whole brain emulation.</p>
+            <p><a href="https://www.amazon.com/Taxonomy-Metaphysics-Mind-Uploading-Keith-Wiley-ebook/dp/B00UW7U0WO" target="_blank"><strong>A Taxonomy and Metaphysics of Mind-Uploading</strong></a> Keith Wiley. A detailed and passionate exploration of the philosophical and metaphysical issues surrounding mind-uploading.</p>
+
         </div>
 
 <div class="section">
